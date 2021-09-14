@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family:'Roboto', sans-serif; ;
+}
+
+
+
+main{
+	width: 90%;
+	height: 750px;
+	max-height:750px;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+	.galeria{
+ 	height: 104%;
+ }
+  }
+
+
+
+ /* X-Large  (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1499px) {
+	#recuadro2{
+		visibility: hidden;
+ }
+  }
+
+/*Large  (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+	nav{
+		display: none;
+		
+	}
+
+ .galeria{
+ 	height: 100%;
+ }
+
+ #wokeup{
+ 	display: none;
+ }
+
+ .titulo{
+ 	margin-right: 5%;
+
+ }
+}
+body{
+	background-image: url(../img/fondo.jpg);
+	font-family:'Roboto', sans-serif; 
+	color: white;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	background-color: #eeaeca;
+}
+
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: #eeaeca;
+}
+
+section{
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/index.jpg);
+	background-size: cover;
+}
+
+
+footer{
+	width: 100%;
+	height: 100px;
+	background-color:#eeaeca;
+	bottom:0px;
+	margin-top: -20px;
+	clear:both;
+
+}
+
+.logocartoon{
+	float: right;
+	width: 100px;
+	margin-top: -6px;
+	padding-right: 2%;
+
+
+}
+
+.logouces{
+	float: left;
+	width: 100px;
+	padding-bottom: 3%;
+}
+.minombre{
+	width: 100%;
+	margin-top: 2%;
+	float: center;
+	color: black;
+	margin-right: 20%;
+	padding-top: 5px;
+	left: 450px;
+	position: relative;
+
+}
+
+
+#dos{
+	width: 40%;
+	height: 500px;
+	float: right;
+}
+
+
+.galeria{
+	float: right;
+	padding-left: 2%;
+	overflow: hidden;	
+
+
+}
+
+.titulo{  
+  margin-right: 2%;
+  padding:10px;
+
+
+}
+
+
+#rol{
+float: left;
+    position: relative;
+    top: 47%;
+    left: 31%;
+    padding: 24px;
+    margin-top: 7%;
+    width: 241px;
+    background-color: rgba(35, 118, 125, 100);
+    border-radius: 7px;
+    border-color: #3498db;
+    border-width: 5px;
+    box-shadow: -21px -12px 16px rgb(255 236 81 / 30%);
+}
+
+
+#tipografia1{
+	color: #ffffff;
+}
+
+
+
+.logo{
+	width: 17%;
+	padding-left: 2%;
+	margin-top: 2%;
+}
+
+
